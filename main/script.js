@@ -1,7 +1,7 @@
 //Globale Variablen
 let level = 1;
 let Punkte = 0;
-let maxlevel = 52;
+let maxlevel = 59;
 maxlevel = maxlevel + 1;
 let Frage = document.querySelector(".Frage");
 let a = document.querySelector(".A");
@@ -476,6 +476,65 @@ async function QuisAuswertung(Richtig) {
                     "c"
         )
     }
+<<<<<<< Updated upstream
+=======
+    if(level -1 == 53){
+        ChangeQuiz("Wie viel Erbgut haben Menschen und Schimpansen gemeinsam?",
+                    "69,3 %",
+                    "98,7 %",
+                    "99,6 %",
+                    "b"
+        )
+    }
+    if(level -1 == 54){
+        ChangeQuiz("Die meisten Hundertjährigen leben in",
+                    "Italien.",
+                    "Japan.",
+                    "Deutschland.",
+                    "b"
+        )
+    }
+    if(level -1 == 55){
+        ChangeQuiz("Der schnellste Mensch der Welt lief umgerechnet",
+                    "37,58 km h.",
+                    "43,56 km h.",
+                    "44,72 km h.",
+                    "c"
+        )
+    }
+    if(level -1 == 56){
+        ChangeQuiz("Der schnellste Mensch der Welt lief umgerechnet",
+                    "167 km h.",
+                    "205 km h.",
+                    "254 km h.",
+                    "c"
+        )
+    }
+    if(level -1 == 57){
+        ChangeQuiz("Der jüngste Schachgroßmeister aller Zeiten war",
+                    "11 Jahre alt.",
+                    "12 Jahre alt.",
+                    "13 Jahre alt.",
+                    "b"
+        )
+    }
+    if(level -1 == 58){
+        ChangeQuiz("Wie alt war der jüngste Mensch, der allein um die Welt segelte",
+                    "16 Jahre",
+                    "17 Jahre",
+                    "14 Jahre",
+                    "c"
+                )
+    }
+    if(level -1 == 59){
+        ChangeQuiz("Wie viele Nervenzellen hat das menschliche Gehirn?",
+                    "ca. 800 Miliarden",
+                    "ca. 50 Miliarden",
+                    "ca. 100 Miliarden",
+                    "c"
+        )
+    }
+>>>>>>> Stashed changes
     punkteFeld.innerHTML = "Du hast " + Punkte + " / " + (level - 1) + " Punkte";
     levelFeld.innerHTML = "Du bist in Frage nummer " + level + " / " + maxlevel
 }
