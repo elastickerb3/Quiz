@@ -1,8 +1,7 @@
 //Globale Variablen
 let level = 1;
 let Punkte = 0;
-let maxlevel = 109;
-maxlevel = maxlevel + 1;
+let maxlevel = 120;
 let Frage = document.querySelector(".Frage");
 let a = document.querySelector(".A");
 let b = document.querySelector(".B");
@@ -929,6 +928,85 @@ async function QuisAuswertung(Richtig) {
                     "das Ulmer Münster.",
                     "die Kathedrale von Rouen in Frankreich.",
                     "der Kölner Dom.",
+                    "a"
+        )
+    }
+    if(level-1 == 110){
+        ChangeQuiz("Wie viele MEdien kann man in der größten Bibliothek der Welt lesen?",
+                    "50 Milionen",
+                    "110 Milionen",
+                    "170 Milionen",
+                    "c"
+        )
+    }
+    if(level-1 == 111){
+        ChangeQuiz("Die längsten Fertigstellung einer Baustelle in Deutschland dauerte",
+                    "ca. 600 Jahre.",
+                    "ca. 360 Jahre.",
+                     "ca. 90 Jahre.",
+                    "a"
+        )
+    }
+    if(level-1 == 112){
+        ChangeQuiz("In dergrößten Kirche der Welt können sich...Menschen versammeln.",
+                    "ca. 20 000",
+                    "ca. 30 000",
+                    "ca. 60 000",
+                    "c"
+        )
+    }
+    if(level-1 == 113){
+        ChangeQuiz("Die erste U-BAhn der Welt fuhr in",
+                    "Moskau",
+                    "London",
+                    "Berlin",
+                    "b"
+        )
+    }
+    if(level-1 == 114){
+        ChangeQuiz("Das älsteste Musikinstrument der Welt ist",
+                    "eine Trommel.",
+                    "eine Flöte.",
+                    "eine Harfe.",
+                    "b"
+        )
+    }
+    if(level-1 == 115){
+        ChangeQuiz("Die meisten Saiten aller Instrumente hat",
+                    "die Harfe.",
+                    "der Flügel.",
+                    "die Orgel.",
+                    "b"
+        )
+    }
+    if(level-1 == 116){
+        ChangeQuiz("Die meistgesprochene Sprache der Welt ist",
+                    "Mandarin-Chinesisch",
+                    "Englisch",
+                    "Spanisch",
+                    "b"
+        )
+    }
+    if(level-1 == 117){
+        ChangeQuiz("Die größte Ritterburg der Welt bedeckt so viel Fläche wie",
+                    "10 Fußballfelder.",
+                    "25 Fußballfelder.",
+                    "100 Fußballfelder.",
+                    "b"
+        )
+    }
+    if(level-1 == 118){
+        ChangeQuiz("Der erste Zeichentrickfilm entstand",
+                    "um 1985.",
+                    "um 1940.",
+                    "um 1900.",
+        )
+    }
+    if(level-1 == 119){
+        ChangeQuiz("Die größte Statue der Welt steht in",
+                    "Indien.",
+                    "den USA.",
+                    "Brasilien.",
                     "a"
         )
     }
