@@ -1,7 +1,7 @@
 //Globale Variablen
 let level = 1;
 let Punkte = 0;
-let maxlevel = 89;
+let maxlevel = 99;
 maxlevel = maxlevel + 1;
 let Frage = document.querySelector(".Frage");
 let a = document.querySelector(".A");
@@ -770,6 +770,86 @@ async function QuisAuswertung(Richtig) {
                     "hat 2,50 Meter Durchmesser.",
                     "hat über 2 Meter Durchmesser.",
                     "a"
+        )
+    }
+    if(level -1 == 90){
+        ChangeQuiz("Die am schnellsten wachsende Pflanze ist",
+                    "die Zypresse.",
+                    "der Bambus.",
+                    "eine Alge.",
+                    "b"
+        )
+    }
+    if(level -1 == 91){
+        ChangeQuiz("Am trockensten Ort der Welt regnet es im Durchschnitt",
+                    "0,5 Liter pro Quadratmeter im Monat",
+                    "0,5 Liter pro Quadratmeter im Jahr",
+                    "0,5 Liter pro Quadratmeter im Jahrzehnt",
+                    "b"
+        )
+    }
+    if(level -1 == 92){
+        ChangeQuiz("Den meisten Schneefall der welt gibt es in",
+                    "der Schweiz.",
+                    "Österreich.",
+                    "Japan.",
+                    "c"
+        )
+    }
+    if(level -1 == 93){
+        ChangeQuiz("Die höchste Freiluft-Aussichtsplattform der Welt befindet sich in",
+                    "über 380 Metern Höhe.",
+                    "über 590 Metern Höhe.",
+                    "über 800 Metern Höhe.",
+                    "c"
+        )
+    }
+    if(level -1 == 94){
+        ChangeQuiz("Das schmalste Haus der Welt ist nur",
+                    "3 Meter breit.",
+                    "2 Meter breit.",
+                    "1 Meter breit.",
+                    "c"
+        )
+    }
+    if(level -1 == 95){
+        ChangeQuiz("Das größte Karussell der Welt dreht sich in",
+                    "90 Metern Höhe.",
+                    "110 Metern Höhe.",
+                    "180 Metern Höhe.",
+                    "b"
+        )
+    }
+    if(level -1 == 96){
+        ChangeQuiz("Die kleinste Zirkustiere der welt sind",
+                    "Kaninchen.",
+                    "Flöhe.",
+                    "Mäuse.",
+                    "b"
+        )
+    }
+    if(level -1 == 97){
+        ChangeQuiz("Die meisten Hochhäuser Deutschlands stehen in",
+                    "Berlin.",
+                    "Frankfurt am Main.",
+                    "Köln.",
+                    "b"
+        )
+    }
+    if(level -1 == 98){
+        ChangeQuiz("Die Chinesische Mauer, das größte von Menschen erschaffene Bauwerk, ist",
+                    "2 197 km lang.",
+                    "12 832 km lang",
+                    "21 196 km lang",
+                    "c"
+        )
+    }
+    if(level -1 == 99){
+        ChangeQuiz("Der schnellste Zug der Welt fährt in",
+                    "Japan.",
+                    "China.",
+                    "Frankreich.",
+                    "b"
         )
     }
     punkteFeld.innerHTML = "Du hast " + Punkte + " / " + (level - 1) + " Punkte";
