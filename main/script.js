@@ -476,7 +476,6 @@ async function QuisAuswertung(Richtig) {
                     "c"
         )
     }
-
     punkteFeld.innerHTML = "Du hast " + Punkte + " / " + (level - 1) + " Punkte";
     levelFeld.innerHTML = "Du bist in Frage nummer " + level + " / " + maxlevel
 }
