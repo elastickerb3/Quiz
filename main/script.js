@@ -1,7 +1,7 @@
 //Globale Variablen
 let level = 1;
 let Punkte = 0;
-let maxlevel = 99;
+let maxlevel = 109;
 maxlevel = maxlevel + 1;
 let Frage = document.querySelector(".Frage");
 let a = document.querySelector(".A");
@@ -850,6 +850,86 @@ async function QuisAuswertung(Richtig) {
                     "China.",
                     "Frankreich.",
                     "b"
+        )
+    }
+    if(level-1 == 100){
+        ChangeQuiz("Das größte Riesenrad der welt dreht sich in",
+                    "Las Vegas, USA.",
+                    "Dubai, Vereinigte Arabische Emirate.",
+                    "London, Vereinigte Königreich.",
+                    "b"
+        )
+    }
+    if(level-1 == 101){
+        ChangeQuiz("Die schnellste Achterbahn der Welt beschleunigt auf atemberaubende",
+                    "240 km h",
+                    "210 km h",
+                    "190 km h",
+                    "a"
+        )
+    }
+    if(level-1 == 102){
+        ChangeQuiz("Der längste Eisenbahntunnel der Welt steht in",
+                    "der Eurotunnel zwischen England und Frankreich.",
+                    "der Gotthard-Basistunnel in der Schweiz.",
+                    "der Guadarrama-Tunnel in Spanien.",
+                    "b"
+        )
+    }
+    if(level-1 == 103){
+        ChangeQuiz("Die längste Brücke der welt steht in",
+                    "Brasilien.",
+                    "den USA.",
+                    "China.",
+                    "c"
+        )
+    }
+    if(level-1 == 104){
+        ChangeQuiz("Der Airbus A380, befördert bis zu",
+                    "570 Passagiere.",
+                    "790 Passagiere.",
+                    "853 Passagiere.",
+                    "c"
+        )
+    }
+    if(level-1 == 105){
+        ChangeQuiz("Das härteste natürliche Material der Welt ist",
+                    "Marmor.",
+                    "Diamanten.",
+                    "Stahl.",
+                    "b"
+        )
+    }
+    if(level-1 == 106){
+        ChangeQuiz("Die tiefste Bohrung auf der Erde ging",
+                    "10 km in die Tiefe.",
+                    "12 km in die Tiefe.",
+                    "20 km in die Tiefe.",
+                    "b"
+        )
+    }
+    if(level-1 == 107){
+        ChangeQuiz("Der tiefste Tunnel der Welt liegt",
+                    "242 Meter unter dem Meeresspiegel.",
+                    "272 Meter unter dem Meeresspiegel.",
+                    "191 MEter unter dem Meerespiegel.",
+                    "c"
+        )
+    }
+    if(level-1 == 108){
+        ChangeQuiz("Das längste Wohnhaus der Welt ist",
+                    "einen halben km lang.",
+                    "einen dreiviertel km lang.",
+                    "ein km lang.",
+                    "c"
+        )
+    }
+    if(level-1 == 109){
+        ChangeQuiz("Den höchsten Kirchturm der Welt hat",
+                    "das Ulmer Münster.",
+                    "die Kathedrale von Rouen in Frankreich.",
+                    "der Kölner Dom.",
+                    "a"
         )
     }
     punkteFeld.innerHTML = "Du hast " + Punkte + " / " + (level - 1) + " Punkte";
