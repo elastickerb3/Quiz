@@ -1,7 +1,7 @@
 //Globale Variablen
 let level = 1;
 let Punkte = 0;
-let maxlevel = 79;
+let maxlevel = 89;
 maxlevel = maxlevel + 1;
 let Frage = document.querySelector(".Frage");
 let a = document.querySelector(".A");
@@ -690,6 +690,86 @@ async function QuisAuswertung(Richtig) {
                     "im Yellowstone-Nationalpark in den USA",
                     "in Indonesien",
                     "b"
+        )
+    }
+    if(level -1 == 80){
+        ChangeQuiz("Amazonien, das größte Regenwaldgebiet der Erde, bedeckt",
+                    "40 % der Fläche Südamerikas.",
+                    "20 % der Fläche Südamerikas.",
+                    "10 % der Fläche Südamerikas.",
+                    "a"
+        )
+    }
+    if(level -1 == 81){
+        ChangeQuiz("Die giftigste Pflanze Deutschland ist",
+                    "der Löwenzahn.",
+                    "der Blaue Eisenhut.",
+                    "der Fliegenpilz.",
+                    "b"
+        )
+    }
+    if(level -1 == 82){
+        ChangeQuiz("Die Regenwaldpflanze Titanwurz hat",
+                    "die größte Blüte.",
+                    "den übelsten Geruch.",
+                    "die schönste Farben.",
+                    "a"
+        )
+    }
+    if(level -1 == 83){
+        ChangeQuiz("Der älteste Baum der Erde ist",
+                    "2 200 Jahre alt.",
+                    "4 500 Jahre alt.",
+                    "9 550 Jahre alt.",
+                    "c"
+        )
+    }
+    if(level -1 == 84){
+        ChangeQuiz("Wie alt ist das älteste Wurzelwerk eines Baumes",
+                    "6 000 Jahre",
+                    "10 500 Jahre",
+                    "12 650 Jahre",
+                    "b"
+        )
+    }
+    if(level -1 == 85){
+        ChangeQuiz("der größte Pilz ist do groß wie",
+                    "1 200 Fußballfelder",
+                    "650 Fußballfelder",
+                    "380 Fußballfelder",
+                    "a"
+        )
+    }
+    if(level -1 == 86){
+        ChangeQuiz("Wie schwer wird die größte Baumfrucht der Welt, die Jackfrucht",
+                    "12 kg",
+                    "37 kg",
+                    "50 kg",
+                    "c"
+        )
+    }
+    if(level -1 == 87){
+        ChangeQuiz("Der größte Samen der welt wiegt",
+                    "25 kg.",
+                    "3 kg.",
+                    "600 g.",
+                    "a"
+        )
+    }
+    if(level -1 == 88){
+        ChangeQuiz("Der höchste Baum ist",
+                    "über 60 Meter hoch, wie ein Hochhaus mit 20 Etagen.",
+                    "über 115 Meter hoch, wie ein Hochhaus mit 35 Etagen.",
+                    "über 180 Meter hoch, wie ein Hochhaus mit 47 Etagen",
+                    "b"
+        )
+    }
+    if(level -1 == 89){
+        ChangeQuiz("Das größte Blatt einer Seerose",
+                    "hat über 3 Meter Durchmesser.",
+                    "hat 2,50 Meter Durchmesser.",
+                    "hat über 2 Meter Durchmesser.",
+                    "a"
         )
     }
     punkteFeld.innerHTML = "Du hast " + Punkte + " / " + (level - 1) + " Punkte";
