@@ -412,6 +412,39 @@ async function QuisAuswertung(Richtig) {
                     "b"
         )
     }
+    if(level -1 == 45){
+        ChangeQuiz("Wie viele Sterne kannstdu in einer klaren Nacht am Himmel sehen?",
+                    "max. 500 Sterne",
+                    "max. 6000 Sterne",
+                    "max. 12 000 Staerne",
+                    "b"
+        )
+    }
+    if(level -1 == 46){
+        ChangeQuiz("Wo herrscht die stärkste Anziehung, die es gibt?",
+                    "auf dem Jupiter",
+                    "in einem Schwarzen Loch",
+                    "auf dem Mars",
+                    "b"
+        )
+    }
+    if(level -1 == 47){
+        ChangeQuiz("Was hat die höchste Geschwindigkeit im Universum?",
+                    "Schall",
+                    "Licht",
+                    "Gas",
+                    "b"
+        )
+    }
+    if(level -1 == 48){
+        ChangeQuiz("Wie weit ist die am weitesten von der Erde entfernte Forschungssonde bisher gereist?",
+                    "über unser Sonnensystem hinaus",
+                    "90 % durch unser Sonnensystem",
+                    "zur Hälfte durch unser Sonnensystem",
+                    "a"
+        )
+    }
+    
     punkteFeld.innerHTML = "Du hast " + Punkte + " / " + (level - 1) + " Punkte";
     levelFeld.innerHTML = "Du bist in Frage nummer " + level + " / " + maxlevel
 }
