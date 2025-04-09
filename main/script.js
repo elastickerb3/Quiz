@@ -1,7 +1,7 @@
 //Globale Variablen
 let level = 1;
 let Punkte = 0;
-let maxlevel = 69;
+let maxlevel = 79;
 maxlevel = maxlevel + 1;
 let Frage = document.querySelector(".Frage");
 let a = document.querySelector(".A");
@@ -609,6 +609,86 @@ async function QuisAuswertung(Richtig) {
                     "der Main-Donau-Kanal.",
                     "der Suezkanal.",
                     "der Panamakanal.",
+                    "b"
+        )
+    }
+    if(level -1 == 70){
+        ChangeQuiz("Wie hoch liegt die höchste Großstadt der Welt ?",
+                    "auf über 3 800 Meter über dem Meeresspiegel",
+                    "auf über 3 200 Meter über dem Meeresspiegel",
+                    "auf über 2 300 Meter über dem Meeresspiegel",
+                    "a"
+        )
+    }
+    if(level -1 == 71){
+        ChangeQuiz("Die steilst Straßenbahn der Welt fährt in",
+                    "San Francisco(USA).",
+                    "Lisabon (Portugal).",
+                    "Chur (Schweiz).",
+                    "b"
+        )
+    }
+    if(level -1 == 72){
+        ChangeQuiz("Aus welcher Höhe erfolgte der höchste Fallschirmsprung aller Zeiten?",
+                    "aus über 40 km über der Erde",
+                    "mehr 35 km über der Erde",
+                    "aus 26 km Höhe über der Erde",
+                    "a"
+        )
+    }
+    if(level -1 == 73){
+        ChangeQuiz("Wie hoch war die höchste Welle, die ein Surfer bisher bezwungen hat?",
+                    "ca. 26 Meter",
+                    "ca. 18 Meter",
+                    "ca. 12 Meter",
+                    "a"
+        )
+    }
+    if(level -1 == 74){
+        ChangeQuiz("Aus welcher Meerestiefe ist der Mensch bisher vorgedrungen?",
+                    "mehr als 5 000 Meter tief",
+                    "mehr als 8 500 Meter tief",
+                    "mehr als 10 000 Meter tief",
+                    "c"
+        )
+    }
+    if(level -1 == 75){
+        ChangeQuiz("Wie lang kann der Weltmeister im Apnoetaucher die Luft anhalten",
+                    "über 11 Minuten",
+                    "über 9 Minuten",
+                    "über 8 Minuten",
+                    "a"
+        )
+    }
+    if(level -1 == 76){
+        ChangeQuiz("Wie viel Druck herrscht am tiefsten Punkt der Erde, in 11 022 Metern unter dem Meeresspiegel",
+                    "über 450 kg pro Quadratzentimeter",
+                    "über 850 kg pro Quadratzentimeter",
+                    "über 1 Tonne pro Quadratzentimeter",
+                    "c"
+        )
+    }
+    if(level -1 == 77){
+        ChangeQuiz("Wo verläuft die längste Straße der Welt?",
+                    "quer durch Russland",
+                    "über den amerikanischen Kontinent",
+                    "von West nach Ost durch China",
+                    "b"
+        )
+    }
+    if(level -1 == 78){
+        ChangeQuiz("Wie weit war die längste Reise, die je ein Mensch gemacht hat?",
+                    "etwa 80 000 km weit, so wie zweimal um die Erde",
+                    "etwa 380 000 km weit",
+                    "etwa 760 000 km weit",
+                    "c"
+        )
+    }
+    if(level -1 == 79){
+        ChangeQuiz("Wo gibt es die meisten Geysire der Welt?",
+                    "in Island",
+                    "im Yellowstone-Nationalpark in den USA",
+                    "in Indonesien",
                     "b"
         )
     }
