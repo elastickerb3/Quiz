@@ -1,7 +1,7 @@
 //Globale Variablen
 let level = 1;
 let Punkte = 0;
-let maxlevel = 44;
+let maxlevel = 52;
 maxlevel = maxlevel + 1;
 let Frage = document.querySelector(".Frage");
 let a = document.querySelector(".A");
@@ -412,6 +412,71 @@ async function QuisAuswertung(Richtig) {
                     "b"
         )
     }
+    if(level -1 == 45){
+        ChangeQuiz("Wie viele Sterne kannstdu in einer klaren Nacht am Himmel sehen?",
+                    "max. 500 Sterne",
+                    "max. 6000 Sterne",
+                    "max. 12 000 Staerne",
+                    "b"
+        )
+    }
+    if(level -1 == 46){
+        ChangeQuiz("Wo herrscht die stärkste Anziehung, die es gibt?",
+                    "auf dem Jupiter",
+                    "in einem Schwarzen Loch",
+                    "auf dem Mars",
+                    "b"
+        )
+    }
+    if(level -1 == 47){
+        ChangeQuiz("Was hat die höchste Geschwindigkeit im Universum?",
+                    "Schall",
+                    "Licht",
+                    "Gas",
+                    "b"
+        )
+    }
+    if(level -1 == 48){
+        ChangeQuiz("Wie weit ist die am weitesten von der Erde entfernte Forschungssonde bisher gereist?",
+                    "über unser Sonnensystem hinaus",
+                    "90 % durch unser Sonnensystem",
+                    "zur Hälfte durch unser Sonnensystem",
+                    "a"
+        )
+    }
+    if(level -1 == 49){
+        ChangeQuiz("Wie alt wurde der bisher älteste Mensch der Welt?",
+                    "99 Jahre",
+                    "112 Jahre",
+                    "122 Jahre",
+                    "c"
+        )
+    }
+    if(level -1 == 50){
+        ChangeQuiz("Das älteste erhaltene gedruckte Buch entstand",
+                    "um 1 370 in Korea.",
+                    "um 1450 in Deutschland.",
+                    "um 1530 in Niederlanden.",
+                    "a"
+        )
+    }
+    if(level -1 == 51){
+        ChangeQuiz("Das älteste Gemälde der Welt entstand vor ...",
+                    "800 Jahren.",
+                    "30 000 Jahre",
+                    "45 500 Jahre",
+                    "c"
+        )
+    }
+    if(level -1 == 52){
+        ChangeQuiz("Wie groß ist der größte Mensch, der offiziell vermessen wurde?",
+                    "2,21 Meter",
+                    "2,42 Meter",
+                    "2,73 Meter",
+                    "c"
+        )
+    }
+
     punkteFeld.innerHTML = "Du hast " + Punkte + " / " + (level - 1) + " Punkte";
     levelFeld.innerHTML = "Du bist in Frage nummer " + level + " / " + maxlevel
 }
