@@ -532,7 +532,86 @@ async function QuisAuswertung(Richtig) {
                     "c"
         )
     }
->>>>>>> Stashed changes
+    if(level -1 == 60){
+        ChangeQuiz("Wo befindet sich der härteste Knochen unseres Körpers?",
+                    "im Oberschenkel",
+                    "im Ohr",
+                    "in der Hüfte",
+                    "b"
+        )
+    }
+    if(level -1 == 61){
+        ChangeQuiz("Welches ist das härteste Material in unserem Körper?",
+                    "Knochen",
+                    "Zahnschmelz",
+                    "Nägel",
+                    "b"
+        )
+    }
+    if(level -1 == 62){
+        ChangeQuiz("Welches Tier hat die härtesten Zähne",
+                    "der Hamster",
+                    "der Elefant",
+                    "die Ratte",
+                    "c"
+        )
+    }
+    if(level -1 == 63){
+        ChangeQuiz("Welches der genannten Tiere ist eines der stärksten Tiere der Welt im Verhältnis zu seiner Körpergröße?",
+                    "ein Elefant",
+                    "ein Käfer",
+                    "ein Gorilla",
+                    "b"
+        )
+    }
+    if(level -1 == 64){
+        ChangeQuiz("Das größte Insekt aller Zeiten war mit geöffneten Flügel so vreit wie",
+                    "ein Hand",
+                    "der Unterarm eines Erwachsenenen",
+                    "der Arm eines Erwachsenen",
+                    "c"
+        )
+    }
+    if(level -1 == 65){
+        ChangeQuiz("Wie viele Zähne hat das Gebiss des Weißen Hais?",
+                    "ca. 3600",
+                    "ca. 2600",
+                    "ca. 360",
+                    "a"
+        )
+    }
+    if(level -1 == 66){
+        ChangeQuiz("Das größte Weltreich der Geschichte war",
+                    "das Römische Reich",
+                    "das Britische Weltreich",
+                    "das Mongolische Reich",
+                    "b"
+        )
+    }
+    if(level -1 == 67){
+        ChangeQuiz("Wie viele Fahrspuren hat die breiteste Straße der Welt?",
+                    "20",
+                    "16",
+                    "12",
+                    "a"
+        )
+    }
+    if(level -1 == 68){
+        ChangeQuiz("Die längste künstler Wasserstraße aller Zeiten war",
+                    "95 km lang.",
+                    "193 km lang.",
+                    "1800 km lang.",
+                    "c"
+        )
+    }
+    if(level -1 == 69){
+        ChangeQuiz("Die wichtigste Wasserstraße der Gegenwart ist",
+                    "der Main-Donau-Kanal.",
+                    "der Suezkanal.",
+                    "der Panamakanal.",
+                    "b"
+        )
+    }
     punkteFeld.innerHTML = "Du hast " + Punkte + " / " + (level - 1) + " Punkte";
     levelFeld.innerHTML = "Du bist in Frage nummer " + level + " / " + maxlevel
 }
