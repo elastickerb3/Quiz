@@ -476,8 +476,6 @@ async function QuisAuswertung(Richtig) {
                     "c"
         )
     }
-<<<<<<< Updated upstream
-=======
     if(level -1 == 53){
         ChangeQuiz("Wie viel Erbgut haben Menschen und Schimpansen gemeinsam?",
                     "69,3 %",
@@ -534,7 +532,6 @@ async function QuisAuswertung(Richtig) {
                     "c"
         )
     }
->>>>>>> Stashed changes
     punkteFeld.innerHTML = "Du hast " + Punkte + " / " + (level - 1) + " Punkte";
     levelFeld.innerHTML = "Du bist in Frage nummer " + level + " / " + maxlevel
 }
