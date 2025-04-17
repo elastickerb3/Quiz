@@ -59,7 +59,7 @@ async function QuisAuswertung(Richtig) {
     console.log("Test")
     richtig.style = "background: lime;";
     await sleep(1)
-    richtig.style = "background: transparent;";
+    richtig.style = "";
     if(level - 1 == 1) {
             ChangeQuiz("Das langsamste Säugetier der Welt ist ...", 
                 "die Seekuh.", 
@@ -500,7 +500,7 @@ async function QuisAuswertung(Richtig) {
         )
     }
     if(level -1 == 56){
-        ChangeQuiz("Der schnellste Mensch der Welt lief umgerechnet",
+        ChangeQuiz("Der schnellste Skirennläufer  der Welt lief umgerechnet",
                     "167 km h.",
                     "205 km h.",
                     "254 km h.",
@@ -564,8 +564,8 @@ async function QuisAuswertung(Richtig) {
         )
     }
     if(level -1 == 64){
-        ChangeQuiz("Das größte Insekt aller Zeiten war mit geöffneten Flügel so vreit wie",
-                    "ein Hand",
+        ChangeQuiz("Das größte Insekt aller Zeiten war mit geöffneten Flügel so breit wie",
+                    "eine  Hand",
                     "der Unterarm eines Erwachsenenen",
                     "der Arm eines Erwachsenen",
                     "c"
@@ -660,7 +660,7 @@ async function QuisAuswertung(Richtig) {
         )
     }
     if(level -1 == 76){
-        ChangeQuiz("Wie viel Druck herrscht am tiefsten Punkt der Erde, in 11 022 Metern unter dem Meeresspiegel",
+        ChangeQuiz("Wie viel Druck herrscht am tiefsten Punkt der Erde, in 11.022 Metern unter dem Meeresspiegel",
                     "über 450 kg pro Quadratzentimeter",
                     "über 850 kg pro Quadratzentimeter",
                     "über 1 Tonne pro Quadratzentimeter",
