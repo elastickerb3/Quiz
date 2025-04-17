@@ -1,5 +1,5 @@
 body{
-    background-image:linear-gradient(to left,red, blue);
+    background-image:linear-gradient(to right, red, blue);
     padding: 0%;
     min-height: 100%;
 
@@ -24,4 +24,21 @@ a{
 }
 html{
     height: 100%;
+}
+img{
+    position: absolute;
+    margin-left: 43%;
+    background-size: 0px;
+    z-index: -1;
+}
+.Start{
+    position:absolute;
+    z-index: 0;
+}
+.StartButton{
+    margin-top: 70px;
+}
+.div{
+    width: 47px;
+    margin-left: 40%;
 }
