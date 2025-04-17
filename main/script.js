@@ -732,7 +732,7 @@ async function QuisAuswertung(Richtig) {
         )
     }
     if(level -1 == 85){
-        ChangeQuiz("der größte Pilz ist do groß wie",
+        ChangeQuiz("der größte Pilz ist so groß wie",
                     "1 200 Fußballfelder",
                     "650 Fußballfelder",
                     "380 Fußballfelder",
@@ -911,7 +911,7 @@ async function QuisAuswertung(Richtig) {
         ChangeQuiz("Der tiefste Tunnel der Welt liegt",
                     "242 Meter unter dem Meeresspiegel.",
                     "272 Meter unter dem Meeresspiegel.",
-                    "191 MEter unter dem Meerespiegel.",
+                    "191 Meter unter dem Meerespiegel.",
                     "c"
         )
     }
@@ -932,7 +932,7 @@ async function QuisAuswertung(Richtig) {
         )
     }
     if(level-1 == 110){
-        ChangeQuiz("Wie viele MEdien kann man in der größten Bibliothek der Welt lesen?",
+        ChangeQuiz("Wie viele Medien kann man in der größten Bibliothek der Welt lesen?",
                     "50 Milionen",
                     "110 Milionen",
                     "170 Milionen",
@@ -956,7 +956,7 @@ async function QuisAuswertung(Richtig) {
         )
     }
     if(level-1 == 113){
-        ChangeQuiz("Die erste U-BAhn der Welt fuhr in",
+        ChangeQuiz("Die erste U-Ba  hn der Welt fuhr in",
                     "Moskau",
                     "London",
                     "Berlin",
