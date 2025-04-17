@@ -204,7 +204,7 @@ async function QuisAuswertung(Richtig) {
             )
     }
     if(level -1 == 19){
-        ChangeQuiz("Welches Tier hat ide feinste Nase?",
+        ChangeQuiz("Welches Tier hat die feinste Nase?",
                     "ein Fisch",
                     "ein Hund",
                     "ein Trüffelschwein",
@@ -252,7 +252,7 @@ async function QuisAuswertung(Richtig) {
         )
     }
     if(level -1 == 25){
-        ChangeQuiz("Den weitesten Sprung aus dem schafft",
+        ChangeQuiz("Den weitesten Sprung aus dem Stand schafft",
                     "eine Springmaus.",
                     "ein Frosch",
                     "ein Hase.",
@@ -372,7 +372,7 @@ async function QuisAuswertung(Richtig) {
         )
     }
     if(level -1 == 40){
-        ChangeQuiz("Wie lange bleiben die Fußabdrücke der Astronaut auf dem Mond sichtbar?",
+        ChangeQuiz("Wie lange bleiben die Fußabdrücke der Astronauten auf dem Mond sichtbar?",
                     "1 Milionen Jahre",
                     "100 000 Jahre",
                     "1 000 Jahre",
