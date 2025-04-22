@@ -27,8 +27,7 @@ html{
 }
 img{
     position: absolute;
-    margin-left: 170px;
-    background-size: 0px;
+    margin-left: 180px;
     z-index: -1;
 }
 .Start{
