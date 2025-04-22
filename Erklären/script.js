@@ -308,70 +308,70 @@ function Erklären(){
         Antwort.innerHTML = "Insgesamt 44 Hochhäuser, darunter fast alle deutschen Wolkenkratzer von mindestens 100 Metern Höhe und 38 Hochhäuser von mindestens 100 Metern Höhe stehen in Frankfurt am Main."
     }
     if(level ==99){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "Die chinesische Mauer besteht aus zahlreichen Abschnitten, die insgesamt 21.196 Kilometer lang sind. Das ist mehr als halb um die Erde!"
     }
     if(level ==100){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "die Magnetschwebebahn Shanghai Maglev in China ist mit 460 km/h spitzen Geschwindigkeit der schnellste Zug der Welt"
     }
     if(level ==101){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "das Ain Dubai der vereinigten Arabischen Emirate steht auf Bluewaters Island, ist 250 m hoch und hat Platz für 1750 Passagiere. Eine Umrundung dauert 38 Minuten."
     }
     if(level ==102){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "auf das atemberaubenden Tempo von 240 Kilometer pro Stunde beschleunigt die Achterbahn Formula Rossa im Freizeitpark Ferrari World in den vereinigten Arabischen Emirat in ca. 4,5 sekunden. Die Fahrt dauert nur 1 Minute"
     }
     if(level ==103){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "der Gotthard-Basistunnel in der Schweiz ist mit 57 Kilometer Länge konkurrenzlos der längste Eisenbahntunnel der Welt."
     }
     if(level ==104){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "in China ist die große Danyang-Kunshan-Brücke mit sagenhaften 164,8 km Länge!"
     }
     if(level ==105){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "853 Passagiere finden Platz in dem Flugzeug. Der Jung fern Flug des Airbus A380 erfolgte 2005."
     }
     if(level ==106){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "Ja manchen ist das härteste natürliche Material der Welt und kann Marmor und Stahl schneiden."
     }
     if(level ==107){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "die Bohrungen 12 km in die Tiefe, ganz genau 12.262 m. Das Loch liegt auf der Halbinsel Kola in Russland. Wegen großer Hitze kommt man nicht weiter bohren. Bis zum Erdkern waren es noch 6366 km gewesen."
     }
     if(level ==108){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "292 m unter den Meeresspiegel liegt der Ryfylkentunnel in Norwegen, der längste Unterasser Straßentunnel der Welt."
     }
     if(level ==109){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "der Karl-Marx-Hof in Wien in Österreich ist mit 1 Kilometer Länge der längste Zusammenhänge Wohnbau der Welt."
     }
     if(level ==110){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "der Turm vom Ulmer Münster ist mit 161,53 Metern der höchste Kirchturm der Welt."
     }
     if(level ==111){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "170 Millionen: so viele Medien bewahren die britische Library in London auf, darunter bücher, Zeitschriften, Musiknoten, Briefe, Postkarten und Landkarten."
     }
     if(level ==112){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "632 Jahre dauerte der Bau des Kölner Doms von der Grundsteinlegung im Jahr 1248 ist der Fertigstellung im Jahr 1880."
     }
     if(level ==113){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "Rund 60.000 Menschen passen in die größte Kirche der Welt, den Petersdom in Rom."
     }
     if(level ==114){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "1870 Pendeltür der erste Schienen Wagen der Welt in England unter der Themse durch den ersten U-Bahn Tunnel der Welt, eine enge Eisenrohre."
     }
     if(level ==115){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "Forscher fanden auf der schwäbischen Alb eine 35.000 Jahre alte Flöte aus dem Knochen eines Gänsegeiers."
     }
     if(level ==116){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "der Flügel hat rund 230 Stahlsaiten, die mit Hammerchen angeschlagen werden."
     }
     if(level ==117){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "Rund 1,45 Milliarden Menschen können englisch sprechen, das ist etwa jeder fünfte Mensch der Welt."
     }
     if(level ==118){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "25 Fußballfelder, das sind etwa 17,5 ha, groß ist die Mary Marienburg in Polen. Sie ist über 700 Jahre alt und wurde von 1270 bis 1300 erbaut."
     }
     if(level ==119){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "1906 zeigt der US Amerikaner J. Stuard Blackton den ersten animierten Film mit lustigen Geschichten und Figuren. Er dauerte 3 Minuten."
     }
     if(level ==120){
-        Antwort.innerHTML = ""
+        Antwort.innerHTML = "182 m, mit Sockel 240 m und damit zweieinhalb Mal so hoch wie die Freiheitsstatue in New York, ist die Statue des indischen Politikers Sarder Vallabhai Patel im Bundesstaat Gujarat, Indien."
     }
 }
 Erklären()
