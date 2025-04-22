@@ -1012,14 +1012,14 @@ if(level-1 == 119){
 }
 }
 FragenAntwortenUndCo()
+if(level ==maxlevel){
+    window.locate.href = "../Fertig/Fetig.html?punkte=" + Punkte + "&maxlevel=" + maxlevel;
+}
 async function QuisAuswertung(Richtig) {
     level++;
     if (Richtig) {
         Punkte++
-    }
-    if(level > maxlevel){
-        window.location.href = "../Fertig/Fertig.html?punkte=" + Punkte + "&maxlevel=" + maxlevel;
-    }
+    } Speichern
     richtig.style = "background: lime;";
     await sleep(1)
     window.location.href = "../Erklären/index.html?level=" + level + "&punkte=" + Punkte
