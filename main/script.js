@@ -1013,7 +1013,7 @@ if(level-1 == 119){
 }
 FragenAntwortenUndCo()
 if(level ==maxlevel){
-    window.locate.href = "../Fertig/Fetig.html?punkte=" + Punkte + "&maxlevel=" + maxlevel;
+    window.location.href = "../Fertig/Fetig.html?punkte=" + Punkte + "&maxlevel=" + maxlevel;
 }
 async function QuisAuswertung(Richtig) {
     level++;
