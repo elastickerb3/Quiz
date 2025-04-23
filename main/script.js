@@ -1012,7 +1012,7 @@ if(level-1 == 119){
 }
 }
 FragenAntwortenUndCo()
-if(level ==maxlevel){
+if(level-1 ==maxlevel){
     window.location.href = "../Fertig/Fertig.html?punkte=" + Punkte + "&maxlevel=" + maxlevel;
 }
 async function QuisAuswertung(Richtig) {
