@@ -1019,7 +1019,7 @@ async function QuisAuswertung(Richtig) {
     level++;
     if (Richtig) {
         Punkte++
-    } Speichern
+    }
     richtig.style = "background: lime;";
     await sleep(1)
     window.location.href = "../Erklären/index.html?level=" + level + "&punkte=" + Punkte
