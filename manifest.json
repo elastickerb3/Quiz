@@ -1,0 +1,8 @@
+{
+    "name": "Quiz",
+    "short-name": "Quiz",
+    "theme_color": "#000",
+    "backround_color": "#000",
+    "display": "fullscreen",
+    "start_url": "https://elastickerb3.github.io/Quiz"
+}
